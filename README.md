@@ -4,7 +4,7 @@ This code is designed based on agent based algorithm.
 ※Please tell me when I make mistakes in this code.
 
 # Module
-- main.py (main program)
+- pso.py (main program)
 - individual.py 
   - described agent and method
 - config.py
