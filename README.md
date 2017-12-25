@@ -1,6 +1,6 @@
 # PSO
 Simple Particle Swarm Optimization (PSO) Python Source Code  
-This code is designed based on agent based algorithm.
+This code is designed based on agent based algorithm.  
 ※Please tell me when I make mistakes in this code.
 
 # Module
