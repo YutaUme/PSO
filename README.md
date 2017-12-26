@@ -5,13 +5,9 @@ This code is designed based on agent based algorithm.
 
 # Module
 - pso.py (main program)
-- individual.py 
-  - described agent and method
-- config.py
-  - described parameters
-- function.py
-  - described some benchmark functions
-  
+- individual.py (about agent and method)
+- config.py (parameters)
+- function.py (some benchmark functions)
   
 # Reference 
 - http://www.swarmintelligence.org/tutorials.php
