@@ -61,10 +61,10 @@ def main():
             """Sort Array"""
             pso_list = sorted(pso_list, key=lambda ID: ID.get_fitness())
 
-            # """Rank and Find the Current Best"""
-            # if pso_list[0].get_fitness() < BestFitness:
-            #     BestPosition = pso_list[0].get_position()
-            #     BestFitness = fn.calculation(BestPosition,iteration)
+            """Rank and Find the Current Best"""
+            if pso_list[0].get_fitness() < BestFitness:
+                BestPosition = pso_list[0].get_position()
+                BestFitness = fn.calculation(BestPosition,iteration)
 
             sys.stdout.write("\r Trial:%3d , Iteration:%7d, BestFitness:%.4f" % (trial , iteration, BestFitness))
             results_list.append(str(BestFitness))
