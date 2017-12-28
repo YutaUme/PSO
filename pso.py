@@ -21,7 +21,7 @@ def main():
     for trial in range(cf.get_trial()):
         np.random.seed(trial)
         results_list = [] # fitness list
-        pso_list = [] # firefly list
+        pso_list = [] 
         """Generate Initial Population"""
         for p in range(cf.get_population_size()):
             pso_list.append(id.Individual())
