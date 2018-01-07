@@ -53,8 +53,8 @@ class Individual:
                 # self.__velocity = np.zeros(len(self.__velocity))
 
     def update_velocity(self, best_position):
-        r_1 = np.random.rand()
-        r_2 = np.random.rand()
+        r_1 = np.random.rand(cf.get_dimension())
+        r_2 = np.random.rand(cf.get_dimension())
 
         """
         [Reload Equation] (x indicate position vector)
